@@ -13,7 +13,8 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
-        env('FRONTEND_URL', 'http://localhost:3000', 'https://api.thegreatcoder.com'),
+        env('FRONTEND_URL', 'http://localhost:3000'),
+        'https://app.thegreatcoder.com',
     ],
 
     'allowed_origins_patterns' => [],
